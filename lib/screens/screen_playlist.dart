@@ -39,7 +39,7 @@ class ScreenPlaylist extends StatelessWidget {
               ),
             )
           ],
-        ),
+        ), 
         const SizedBox(
           height: 10,
         ),
