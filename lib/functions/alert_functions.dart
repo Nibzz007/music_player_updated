@@ -142,7 +142,7 @@ showCreatingPlaylistDialoge({required BuildContext context}) {
           child: AlertDialog(
             backgroundColor: kWhite,
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(5),
+              borderRadius: BorderRadius.circular(20),
             ),
             title: const Text(
               'Create playlist',
@@ -321,6 +321,7 @@ showSongModalSheet({
                             style: const TextStyle(
                               fontSize: 15,
                               fontWeight: FontWeight.w500,
+                              color: kWhite
                             ),
                           ),
                         ),

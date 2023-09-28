@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-
+import 'package:music_player/palettes/color_palette.dart';
 import '../models/songs.dart';
 import 'db_functions.dart';
 
@@ -74,7 +74,7 @@ class UserPlaylist {
           ),
         ),
         duration: const Duration(seconds: 1),
-        backgroundColor: Theme.of(context).colorScheme.background,
+        backgroundColor: bottomSheetBackgroundColor,
         content: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisSize: MainAxisSize.min,

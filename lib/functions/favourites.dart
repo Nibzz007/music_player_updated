@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:music_player/functions/db_functions.dart';
+import 'package:music_player/palettes/color_palette.dart';
 
 import '../models/songs.dart';
 
@@ -47,10 +48,11 @@ class Favourites {
         : Icons.favorite_rounded;
   }
 
-  static showFavouritesSnackBar(
-      {required BuildContext context,
-      required String songName,
-      required String message}) {
+  static showFavouritesSnackBar({
+    required BuildContext context,
+    required String songName,
+    required String message,
+  }) {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         shape: const RoundedRectangleBorder(
@@ -60,7 +62,7 @@ class Favourites {
           ),
         ),
         duration: const Duration(seconds: 1),
-        backgroundColor: Theme.of(context).colorScheme.background,
+        backgroundColor: bottomSheetBackgroundColor,
         content: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisSize: MainAxisSize.min,
