@@ -70,8 +70,9 @@ class _ScreenSplashState extends State<ScreenSplash> {
       backgroundColor: kBlack,
       body: Center(
         child: Image.asset(
-          'assets/images/My project (2).png',
-          width: 200,
+          'assets/images/MusicApp (1).png',
+          width: 280,
+          height: 250,
         ),
       ),
     );

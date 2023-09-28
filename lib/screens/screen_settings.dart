@@ -99,11 +99,12 @@ class _ScreenSettingState extends State<ScreenSetting> {
                                 fontFamily: 'Poppins',
                               ),
                               bodySmall: TextStyle(
-                                color: kLightBlue,
+                                color: kWhite,
                                 fontFamily: 'Poppins',
                               ),
                               titleLarge: TextStyle(
                                 fontFamily: 'Poppins',
+                                color: kWhite
                               ),
                             ),
                             cardColor: kBackgroundColor,
@@ -142,9 +143,9 @@ showAboutMeDialoge({
           child: Container(
             decoration: BoxDecoration(
               color: Colors.white,
-              borderRadius: BorderRadius.circular(10),
+              borderRadius: BorderRadius.circular(20),
             ),
-            height: 200,
+            height: 180,
             child: const Padding(
               padding: EdgeInsets.all(10.0),
               child: Column(

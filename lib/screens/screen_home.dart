@@ -41,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             const Text(
-              'Música',
+              'MusicApp',
               style: TextStyle(
                 fontSize: 28,
                 fontWeight: FontWeight.w900,

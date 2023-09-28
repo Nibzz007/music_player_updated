@@ -35,7 +35,6 @@ class CreatedPlaylist extends StatelessWidget {
             child: Image.asset(
               playlistImage,
               fit: BoxFit.cover,
-              // height: 137,
               height: screenHeight * 0.21,
             ),
           ),
