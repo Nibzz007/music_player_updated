@@ -83,11 +83,6 @@ class _MiniPlayerState extends State<MiniPlayer> {
           width: double.infinity,
           decoration: BoxDecoration(
             color: bottomSheetBackgroundColor,
-            borderRadius: BorderRadius.circular(10.0),
-            border: Border.all(
-              color: kWhite,
-              width: 1.5,
-            ),
           ),
           child: Center(
             child: ListTile(
